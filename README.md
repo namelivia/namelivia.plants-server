@@ -1,4 +1,4 @@
-# Garments Server Ansible role
+# Plants Server Ansible role
 
 ## This is a WIP
 
@@ -11,7 +11,7 @@ collections:
   - community.docker
 
 roles:
-  - src: https://github.com/namelivia/namelivia.garments-server
+  - src: https://github.com/namelivia/namelivia.plants-server
 ```
 
 ## Required variables (TODO: Update these)
