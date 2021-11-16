@@ -7,3 +7,8 @@ galaxy_info:
   dependencies:
     - namelivia.backups
     - namelivia.postgres
+  platforms:
+    - name: Ubuntu
+      versions:
+        - bionic
+        - focal
