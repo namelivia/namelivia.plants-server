@@ -1,4 +1,4 @@
-# Plants Server Ansible role
+# Plants Server Ansible role [![Ansible Lint](https://github.com/namelivia/ansible-plants-server/actions/workflows/ansible-lint.yml/badge.svg)](https://github.com/namelivia/ansible-plants-server/actions/workflows/ansible-lint.yml)
 
 ## This is a WIP
 
