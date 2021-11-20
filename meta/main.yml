@@ -5,8 +5,8 @@ galaxy_info:
   license: GPLv2
   min_ansible_version: 2.5.1
   dependencies:
-    - namelivia.backups
-    - namelivia.postgres
+    - ansible-backups
+    - ansible-postgres
   platforms:
     - name: Ubuntu
       versions:

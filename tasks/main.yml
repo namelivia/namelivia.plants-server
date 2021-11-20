@@ -48,20 +48,20 @@
 
 - name: Create database
   include_role:
-    name: namelivia.postgres
+    name: ansible-postgres
     tasks_from: create-postgres-database-if-not-exists
 
 - name: Upgrade alembic
   include_role:
-    name: namelivia.fastapi
+    name: ansible-fastapi
     tasks_from: upgrade-alembic
 
 - name: Setup database backups
   include_role:
-    name: namelivia.backups
+    name: ansible-backups
     tasks_from: setup-postgres-database-backups
 
 - name: Setup S3 backups
   include_role:
-    name: namelivia.backups
+    name: ansible-backups
     tasks_from: setup-s3-backups
