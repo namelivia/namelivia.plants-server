@@ -8,6 +8,7 @@
       - cloudwatch_log_group is defined
       - database_url is defined
       - notifications_service_endpoint is defined
+      - domain_name is defined
       - user_info_service_endpoint is defined
       - journaling_service_endpoint is defined
       - images_service_endpoint is defined
@@ -45,6 +46,9 @@
       IMAGES_SERVICE_ENDPOINT: "{{ images_service_endpoint }}"
       JOURNALING_SERVICE_ENDPOINT: "{{ journaling_service_endpoint }}"
       USER_INFO_SERVICE_ENDPOINT: "{{ user_info_service_endpoint }}"
+      VIRTUAL_HOST: "{{ domain_name }}"
+      LETSENCRYPT_HOST: "{{ domain_name }}"
+      VIRTUAL_PORT: "80"
 
 - name: Create database
   include_role:
