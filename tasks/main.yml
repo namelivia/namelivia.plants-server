@@ -47,6 +47,8 @@
       JOURNALING_SERVICE_ENDPOINT: "{{ journaling_service_endpoint }}"
       USER_INFO_SERVICE_ENDPOINT: "{{ user_info_service_endpoint }}"
       VIRTUAL_HOST: "{{ domain_name }}"
+      VIRTUAL_PATH: "{{ subpath }}"
+      VIRTUAL_DEST: "/"
       LETSENCRYPT_HOST: "{{ domain_name }}"
       VIRTUAL_PORT: "80"
 
